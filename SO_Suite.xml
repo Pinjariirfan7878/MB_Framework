@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.oms.GenericLib.MylistenerClass" />
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.OMS.SO.TC_001_SO_End_to_End_Test"/>    
+      <class name="com.OMS.SO.TC_002_SO_Create_Test"/>
+      <class name="com.OMS.SO.TC_003_SO_BothApproval_Test"/>
+      <class name="com.OMS.SO.TC_004_SO_RejectedByProcurement_Test"/>
+      <class name="com.OMS.SO.TC_005_SO_RejectedByFinance_Test"/>
+      <class name="com.OMS.SO.TC_006_SO_Rollback_PickAndPack"/>
+      <class name="com.OMS.SO.TC_007_SO_Partial_Return"/>
+      <class name="com.OMS.SO.TC_008_SO_Bulk_Duplicate_SKU_CSV"/>
+      <class name="com.OMS.SO.TC_009_SO_Bulk_Unique_SKU_CSV"/>
+      <class name="com.OMS.SO.TC_010_SO_Pending_Shipment_Test"/>
+      <class name="com.OMS.SO.TC_011_SO_Procurement_Completed_Test"/>
+      <class name="com.OMS.SO.TC_012_SO_Procurement_Expected_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.oms.GenericLib.MylistenerClass" />
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+       <class name="com.OMS.SO.Negative_Flow.TC_001_SO_Create_So_with_L1_without_KYC_Test"/>
+      <class name="com.OMS.SO.Negative_Flow.TC_002_SO_Create_So_with_KYC_without_L1_Test"/>
+      <class name="com.OMS.SO.Negative_Flow.TC_003_SO_Create_So_customer_type_change_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

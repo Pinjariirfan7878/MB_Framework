@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+		<listener class-name="com.oms.GenericLib.MylistenerClass" />
+</listeners>
+  <test thread-count="1" name="Test">
+    <classes>
+       <class name="com.OMS.Customer.TC_001_Add_New_Domestic_Customer"/>     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

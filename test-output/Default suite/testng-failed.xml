@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.OMS.Indent.TC_002_Indent_Raise_Cancel_Non_VPO_Customer_Indent_via_cart_test">
+        <methods>
+          <include name="initializationOFObjects"/>
+          <include name="close"/>
+          <include name="Indent_Raise_Cancel_Non_VPO_Customer_Indent_via_via_cart_test"/>
+          <include name="disconnectToDB"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.OMS.Indent.TC_002_Indent_Raise_Cancel_Non_VPO_Customer_Indent_via_cart_test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
